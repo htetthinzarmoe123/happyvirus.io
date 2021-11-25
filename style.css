@@ -1,0 +1,51 @@
+body{
+	font-family: Time New Romace;
+}
+.left-header{
+	animation: backInLeft;
+	animation-duration: 2s;
+}
+.right-header{
+	animation: backInRight;
+	animation-duration: 2s;
+}
+.img-fluid{
+	box-shadow: 5px 5px  10px gray;
+}
+img:hover{
+	animation:shakeX;
+	animation-duration: 2s;
+}
+
+.learmoreaboutme{
+	animation: fadeInTopRight;
+	animation-duration: 2s;
+}
+hr{
+	width: 50%;
+}
+.card{
+	animation: fadeInUp;
+	animation-duration: 2s;
+	animation-delay: 1s;
+}
+.progress,small{
+	animation:flipInX;
+	animation-duration: 2s;
+}
+.pj:hover{
+	animation: flash;
+	animation-duration: 2s;
+}
+.fab:hover{
+	animation:jello;
+	animation-duration: 2s;
+}
+.scroll-top{
+	position: fixed;
+	bottom: 20px;
+	right: 10%;
+	z-index: 99;
+	font-weight: bold;
+	line-height: normal;
+}
